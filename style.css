@@ -29,13 +29,18 @@ body {
     color: aqua;
 }
 .about-button a {
-    cursor: default; opacity: 15%; display: inline; transition: 0.4s;
+    display: inline; padding: 10px;
+    transition: 0.4s; 
+    border-radius: 9px;
     color: #212d38;
-    border: solid #18435f 1px; padding: 10px; border-radius: 8px; text-decoration: none;
+    background: #37a1e8;
+    opacity: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    text-decoration: none; 
 }
 .about-button a:hover{
-    opacity: 100%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; cursor: pointer; border: solid #3498db 1px;
-    background: #37a1e8;
+    background: #3290d0;
 }
 .scrolldown-icon2 {
     left: 0;
@@ -45,4 +50,8 @@ body {
     text-align: center;
     bottom: 0%;
     width: 100%;
+}
+#main-content{
+    margin-top: 720px;
+    background: #fff; border-radius: 20px 20px 0 0;
 }
