@@ -1,17 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,500;1,800&display=swap');
+
+/***********CSS Reset*************/
 * {
     margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; 
 }
+/*********************************/
+
 *::selection{
     background-image: none;
     color: rgb(0, 217, 255);
 }
+
 html {
     scroll-behavior: smooth;
   }
+
 body {
     background: #3498db;
 }
+
+/*::-webkit-scrollbar{       Will be Configed...
+    
+}*/
+
 .header-text {
     left: 0;
     line-height: 100px;
@@ -139,3 +150,4 @@ body {
     position: absolute;
     transform: rotate(-20deg);
 }
+/*********3dicons**Ending*******/
