@@ -51,7 +51,22 @@ body {
     bottom: 0%;
     width: 100%;
 }
-#main-content{
-    margin-top: 720px;
+.content{
+    margin-top: 780px;
     background: #fff; border-radius: 20px 20px 0 0;
+}
+.about-container {
+    margin: 40px 40px 0 40px; padding: 60px;
+}
+.about-container .about-me{
+    font-size: 1.1em;
+    font-weight: auto;
+    max-width: auto;
+    transition: 0.6s;
+    cursor: default;
+    text-align: justify; text-indent: 30px;
+     padding: 30px;
+    border-radius: 20px; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
 }
