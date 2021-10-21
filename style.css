@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,500;1,800&display=swap');
 * {
     margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; 
 }
@@ -6,6 +6,9 @@
     background-image: none;
     color: rgb(0, 217, 255);
 }
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background: #3498db;
 }
@@ -20,7 +23,7 @@ body {
     color: #212d38;
 }
 .main-text {
-    font-size: 95px; display: inline; cursor: none;
+    font-size: 95px; display: inline; cursor: none; font-weight: 800;
     text-shadow: rgba(46, 195, 240, 0.4) 4px 4px; transition: 0.6s;
 }
 .main-text:hover{
@@ -31,6 +34,7 @@ body {
 .about-button a {
     display: inline; padding: 10px;
     transition: 0.4s; 
+    font-weight: 600;
     border-radius: 9px;
     color: #212d38;
     background: #37a1e8;
@@ -57,6 +61,9 @@ body {
 }
 .about-container {
     margin: 40px 40px 0 40px; padding: 60px;
+}
+.about-container p{
+    font-weight: 400;
 }
 .about-container .about-me{
     font-size: 1.1em;
