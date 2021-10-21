@@ -34,7 +34,7 @@ body {
     border: solid #18435f 1px; padding: 10px; border-radius: 8px; text-decoration: none;
 }
 .about-button a:hover{
-    opacity: 100%; box-shadow: rgba(46, 195, 240, 0.4) 4px 4px; cursor: pointer; border: solid #212d38 1px;
+    opacity: 100%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; cursor: pointer; border: solid #3498db 1px;
     background: #37a1e8;
 }
 .scrolldown-icon2 {
