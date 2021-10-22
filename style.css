@@ -42,6 +42,18 @@ body {
     text-shadow: none;
     color: aqua;
 }
+.about-button{
+display: inline;
+
+left: 0;
+line-height: 100px;
+margin-top: -100px;
+position: absolute;
+text-align: center;
+top: 99%;
+width: 100%;
+color: #212d38;
+}
 .about-button a {
     display: inline; padding: 10px;
     transition: 0.4s; 
@@ -52,7 +64,7 @@ body {
     opacity: 100%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     cursor: pointer;
-    text-decoration: none; 
+    text-decoration: none;
 }
 .about-button a:hover{
     background: #3290d0;
@@ -139,10 +151,10 @@ body {
     transform: rotate(-20deg);
 }
 .icon9{
-    right: 20%; top: 66%;
+    right: 36%; top: 66%;
     margin-top: -100px;
     position: absolute;
-    transform: rotate(-20deg);
+    transform: rotate(20deg);
 }
 .icon10{
     right: 60%; top: 44%;
