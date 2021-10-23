@@ -19,9 +19,9 @@ body {
     background: #3498db;
 }
 
-/*::-webkit-scrollbar{       Will be Configed...
-    
-}*/
+::-webkit-scrollbar{
+    width: 0;
+}
 
 .header-text {
     left: 0;
@@ -79,7 +79,7 @@ color: #212d38;
     width: 100%;
 }
 .content{
-    margin-top: 780px;
+    margin-top: 850px;
     background: #fff; border-radius: 20px 20px 0 0;
 }
 .about-container {
