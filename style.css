@@ -135,8 +135,16 @@ body {
   text-align: center;
   font-size: 24px;
 }
+.inviting-form{
+  text-decoration: #3290d0;
+}
 .inviting-form:hover{
   background: #3290d0; transition: 0.5s;
+  color: #fff;
+  padding: 1px;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  text-decoration: none;
 }
 /*************progress icons*****************/
 .iconp1{
