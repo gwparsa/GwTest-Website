@@ -138,6 +138,20 @@ body {
 .inviting-form:hover{
   background: #3290d0; transition: 0.5s;
 }
+/*************progress icons*****************/
+.iconp1{
+  left: 18%;
+  margin-top: 500px;
+  position: absolute;
+  transform: rotate(25deg);
+}
+.iconp2{
+  left: 71%;
+  margin-top: 50px;
+  position: absolute;
+  transform: rotate(-20deg);
+}
+/*************progressicons****end*************/
 
 /*********3dicons*********/
 .icon1 {
@@ -145,7 +159,6 @@ body {
   top: 87%;
   margin-top: -100px;
   position: absolute;
-  -ms-transform: rotate(20deg); /* IE 9 */
   transform: rotate(20deg);
 }
 .icon2 {
