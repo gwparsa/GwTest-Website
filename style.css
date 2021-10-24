@@ -129,7 +129,14 @@ body {
   margin-bottom: 15px;
 }
 .progress-bar progress label {
-  display: inline;
+  display: inline; font-size: 20px;
+}
+.progress-h{
+  text-align: center;
+  font-size: 24px;
+}
+.inviting-form:hover{
+  background: #3290d0; transition: 0.5s;
 }
 
 /*********3dicons*********/
