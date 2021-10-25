@@ -10,8 +10,8 @@
 /*********************************/
 
 *::selection {
-  background-color: #3498db;
-  color: #fff;
+  background-color: none;
+  color: #48adf0;
 }
 
 html {
@@ -183,7 +183,7 @@ body {
   background: #93d2fc;
 }
 .resume-dl hr {
-  width: 360px;
+  width: 38%;
   margin: auto;
 }
 
