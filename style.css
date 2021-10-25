@@ -105,12 +105,13 @@ body {
   cursor: default;
   text-align: justify;
   padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 5px 8px rgba(0, 0, 0, 0.24);
   transition: 0.3s;
 }
-.about-container .about-me:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+.about-me h3{
+  color: #212d38;
+  text-align: center;
+  font-size: 52px;
+  margin-bottom:20px;
 }
 .progress-bar {
   margin: 0 auto;
@@ -182,9 +183,22 @@ body {
 .en-resume-button:hover , .fa-resume-button:hover {
   background: #93d2fc;
 }
-.resume-dl hr {
-  width: 38%;
+.hr {
+  width: 32%;
   margin: auto;
+  margin-bottom: 40px;
+}
+.hr2 {
+  width: 44%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.second-content-header{
+  color: #212d38;
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  font-size: 60px;
 }
 
 /*********3dicons*********/
