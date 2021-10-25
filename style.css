@@ -10,9 +10,8 @@
 /*********************************/
 
 *::selection {
-    background-color: #3498db;
+  background-color: #3498db;
   color: #fff;
-  
 }
 
 html {
@@ -52,7 +51,6 @@ body {
 }
 .about-button {
   display: inline;
-
   left: 0;
   line-height: 100px;
   margin-top: -100px;
@@ -108,11 +106,11 @@ body {
   text-align: justify;
   padding: 40px;
   border-radius: 20px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.12), 0 5px 8px rgba(0,0,0,0.24); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 5px 8px rgba(0, 0, 0, 0.24);
   transition: 0.3s;
 }
-.about-container .about-me:hover{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.about-container .about-me:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .progress-bar {
   margin: 0 auto;
@@ -121,7 +119,7 @@ body {
   border-radius: 10px;
   padding: 35px;
   max-width: 550px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.12), 0 5px 8px rgba(0,0,0,0.24); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 5px 8px rgba(0, 0, 0, 0.24);
 }
 .progress-bar progress {
   width: 100%;
@@ -129,17 +127,19 @@ body {
   margin-bottom: 15px;
 }
 .progress-bar progress label {
-  display: inline; font-size: 20px;
+  display: inline;
+  font-size: 20px;
 }
-.progress-h{
+.progress-h {
   text-align: center;
   font-size: 24px;
 }
-.inviting-form{
+.inviting-form {
   text-decoration: #3290d0;
 }
-.inviting-form:hover{
-  background: #3290d0; transition: 0.5s;
+.inviting-form:hover {
+  background: #3290d0;
+  transition: 0.5s;
   color: #fff;
   padding: 1px;
   letter-spacing: 1px;
@@ -147,19 +147,45 @@ body {
   text-decoration: none;
 }
 /***********progress icons*********/
-.iconp1{
-  left: 18%;
+.iconp1 {
+  left: 12%;
   margin-top: 500px;
   position: absolute;
   transform: rotate(25deg);
 }
-.iconp2{
-  left: 71%;
+.iconp2 {
+  left: 77%;
   margin-top: 50px;
   position: absolute;
   transform: rotate(-20deg);
 }
 /*********progressicons****end*******/
+.resume-dl {
+  border-radius: 9px;
+  text-align: center;
+  margin-top: 35px;
+}
+.text-dl {
+  color: #212d38;
+  font-size: 19px;
+  padding: 13px;
+  margin-top: 10px;
+}
+.en-resume-button, .fa-resume-button {
+  text-decoration: none;
+  background: #3598da;
+  padding: 10px;
+  border-radius: 5px;
+  color: #212d38;
+  transition: 0.4s;
+}
+.en-resume-button:hover , .fa-resume-button:hover {
+  background: #93d2fc;
+}
+.resume-dl hr {
+  width: 360px;
+  margin: auto;
+}
 
 /*********3dicons*********/
 .icon1 {
