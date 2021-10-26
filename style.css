@@ -88,7 +88,7 @@ body {
 .content {
   margin-top: 850px;
   background: #fff;
-  border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 20px 20px;
 }
 .about-container {
   margin: 40px 40px 0 40px;
@@ -200,6 +200,95 @@ body {
   margin-bottom: 20px;
   font-size: 60px;
 }
+/*********sections************/
+.section1{
+  margin-top: 130px;
+}
+.section-img1{
+  margin-left: 150px;
+}
+.section-text1{
+  position: absolute;
+  padding-left:600px;
+  margin-top: 85px;
+}
+.section-header1{
+  font-size: 50px;
+  color: #212d38;
+}
+.section-p1{
+  max-width: 550px;
+  text-align: justify;
+  color: #212d38;
+}
+
+
+.section2{
+  margin-top: 630px;
+}
+.section-img2{
+  margin-right: 150px;
+}
+.section-text2{
+  position: absolute;
+  padding-left: 500px;
+  margin-top: 85px;
+}
+.section-header2{
+  font-size: 50px;
+  color: #212d38;
+}
+.section-p2{
+  max-width: 550px;
+  text-align: justify;
+  color: #212d38;
+}
+
+
+.section3{
+  margin-top: 130px;
+}
+.section-img3{
+  margin-left: 200px;
+}
+.section-text3{
+  position: absolute;
+  padding-left:600px;
+  margin-top: 140px;
+}
+.section-header3{
+  font-size: 50px;
+  color: #212d38;
+}
+.section-p3{
+  max-width: 550px;
+  text-align: justify;
+  color: #212d38;
+}
+
+
+.section4{
+  margin-top: 130px;
+}
+.section-img4{
+  margin-left: 200px;
+}
+.section-text4{
+  position: absolute;
+  padding-left:600px;
+  margin-top: 140px;
+}
+.section-header4{
+  font-size: 50px;
+  color: #212d38;
+}
+.section-p4{
+  max-width: 550px;
+  text-align: justify;
+  color: #212d38;
+}
+/********sections******end*******/
+
 
 /*********3dicons*********/
 .icon1 {
