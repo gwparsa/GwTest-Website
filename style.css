@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,500;1,800&display=swap");
-
 /***********CSS Reset*************/
 * {
   margin: 0;
@@ -107,11 +106,11 @@ body {
   padding: 40px;
   transition: 0.3s;
 }
-.about-me h3{
+.about-me h3 {
   color: #212d38;
   text-align: center;
   font-size: 52px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 .progress-bar {
   margin: 0 auto;
@@ -172,7 +171,8 @@ body {
   padding: 13px;
   margin-top: 10px;
 }
-.en-resume-button, .fa-resume-button {
+.en-resume-button,
+.fa-resume-button {
   text-decoration: none;
   background: #3598da;
   padding: 10px;
@@ -180,7 +180,8 @@ body {
   color: #212d38;
   transition: 0.4s;
 }
-.en-resume-button:hover , .fa-resume-button:hover {
+.en-resume-button:hover,
+.fa-resume-button:hover {
   background: #93d2fc;
 }
 .hr {
@@ -193,7 +194,7 @@ body {
   margin: auto;
   margin-bottom: 40px;
 }
-.second-content-header{
+.second-content-header {
   color: #212d38;
   text-align: center;
   margin-top: 150px;
@@ -201,94 +202,106 @@ body {
   font-size: 60px;
 }
 /*********sections************/
-.section1{
+.section1 {
   margin-top: 130px;
 }
-.section-img1{
+.section-img1 {
   margin-left: 150px;
 }
-.section-text1{
+.section-text1 {
   position: absolute;
-  padding-left:600px;
+  padding-left: 600px;
   margin-top: 85px;
 }
-.section-header1{
+.section-header1 {
+  max-width: 500px;
+  font-weight: 800;
   font-size: 50px;
   color: #212d38;
 }
-.section-p1{
+.section-p1 {
+  font-weight: 400;
+  font-size: 16px;
   max-width: 550px;
   text-align: justify;
   color: #212d38;
 }
 
-
-.section2{
-  margin-top: 630px;
+.section2 {
+  margin-top: 770px;
 }
-.section-img2{
+.section-img2 {
   margin-right: 150px;
 }
-.section-text2{
+.section-text2 {
   position: absolute;
   padding-left: 460px;
-  margin-top: 85px;
+  margin-top: 50px;
 }
-.section-header2{
+.section-header2 {
+  max-width: 480px;
+  font-weight: 800;
   font-size: 50px;
   color: #212d38;
 }
-.section-p2{
+.section-p2 {
+  font-weight: 400;
+  font-size: 16px;
   max-width: 550px;
   text-align: justify;
   color: #212d38;
 }
 
-
-.section3{
-  margin-top: 1130px;
+.section3 {
+  margin-top: 1420px;
 }
-.section-img3{
+.section-img3 {
   margin-left: 150px;
 }
-.section-text3{
+.section-text3 {
   position: absolute;
-  padding-left:600px;
-  margin-top: 85px;
+  padding-left: 600px;
+  margin-top: 75px;
 }
-.section-header3{
+.section-header3 {
+  max-width: 480px;
+  font-weight: 800;
   font-size: 50px;
   color: #212d38;
 }
-.section-p3{
+.section-p3 {
+  font-weight: 400;
+  font-size: 16px;
   max-width: 550px;
   text-align: justify;
   color: #212d38;
 }
 
-
-.section4{
-  margin-top: 1630px;
+.section4 {
+  margin-top: 2050px;
 }
-.section-img4{
+.section-img4 {
   margin-right: 150px;
 }
-.section-text4{
+.section-text4 {
   position: absolute;
   padding-left: 460px;
-  margin-top: 85px;
+  margin-top: 70px;
 }
-.section-header4{
+.section-header4 {
+  max-width: 480px;
+  font-weight: 800;
   font-size: 50px;
   color: #212d38;
 }
-.section-p4{
+.section-p4 {
+  font-weight: 400;
+  font-size: 16px;
   max-width: 550px;
   text-align: justify;
   color: #212d38;
 }
 /********sections******end*******/
-
 
 /*********3dicons*********/
 .icon1 {
