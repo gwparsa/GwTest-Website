@@ -231,7 +231,7 @@ body {
 }
 .section-text2{
   position: absolute;
-  padding-left: 500px;
+  padding-left: 460px;
   margin-top: 85px;
 }
 .section-header2{
@@ -246,15 +246,15 @@ body {
 
 
 .section3{
-  margin-top: 130px;
+  margin-top: 1130px;
 }
 .section-img3{
-  margin-left: 200px;
+  margin-left: 150px;
 }
 .section-text3{
   position: absolute;
   padding-left:600px;
-  margin-top: 140px;
+  margin-top: 85px;
 }
 .section-header3{
   font-size: 50px;
@@ -268,15 +268,15 @@ body {
 
 
 .section4{
-  margin-top: 130px;
+  margin-top: 1630px;
 }
 .section-img4{
-  margin-left: 200px;
+  margin-left: 150px;
 }
 .section-text4{
   position: absolute;
-  padding-left:600px;
-  margin-top: 140px;
+  padding-left: 480px;
+  margin-top: 85px;
 }
 .section-header4{
   font-size: 50px;
