@@ -17,68 +17,90 @@
     <div class="main-container">
       <header id="upper-header">
         <div class="header-text">
-          <div class="main-text">GwParSa WorkSpace</div>
+          <div data-speed="2" class="movetext main-text">
+            GwParSa WorkSpace
+          </div>
         </div>
         <div class="about-button">
           <a href="#about">More About Me...</a>
         </div>
-        <div class="d3icon-background">
+        <div id="icons-move" class="d3icon-background">
           <img
-            class="icon1"
-            width="6%"
-            src="docs/3dicon/Code_perspective_matte.png"
+            data-speed="-5" 8
+            id="icon1"
+            class="icons"
+            width="5%"
+            src="docs/3dicon/Binance_coin_perspective_matte.png"
             alt="icon1"
           />
           <img
-            class="icon2"
+            data-speed="9" 8
+            id="icon2"
+            class="icons"
             width="4%"
-            src="docs/3dicon/Database_perspective_matte.png"
+            src="docs/3dicon/Brush_perspective_matte.png"
             alt="icon2"
           />
           <img
-            class="icon3"
+            data-speed="-2"
+            id="icon3"
+            class="icons"
             width="4%"
             src="docs/3dicon/Coin_perspective_matte.png"
             alt="icon3"
           />
           <img
-            class="icon4"
+            data-speed="-7" 
+            id="icon4"
+            class="icons"
             width="6%"
-            src="docs/3dicon/Notebook_perspective_matte.png"
+            src="docs/3dicon/Networking_perspective_matte.png"
             alt="icon4"
           />
           <img
-            class="icon5"
+            data-speed="5"
+            id="icon5"
+            class="icons"
             width="6%"
-            src="docs/3dicon/Page_perspective_matte.png"
+            src="docs/3dicon/Clip_perspective_matte.png"
             alt="icon5"
           />
           <img
-            class="icon6"
+            data-speed="7"
+            id="icon6"
+            class="icons"
             width="5%"
             src="docs/3dicon/Tools_perspective_matte.png"
             alt="icon6"
           />
           <img
-            class="icon7"
-            width="6%"
+            data-speed="-10"
+            id="icon7"
+            class="icons"
+            width="5%"
             src="docs/3dicon/Money_bag_perspective_matte.png"
             alt="icon7"
           />
           <img
-            class="icon8"
+            data-speed="3"
+            id="icon8"
+            class="icons"
             width="6%"
             src="docs/3dicon/Fire_perspective_matte.png"
             alt="icon8"
           />
           <img
-            class="icon9"
+            data-speed="-7"
+            id="icon9"
+            class="icons"
             width="3%"
             src="docs/3dicon/Code_perspective_matte.png"
             alt="icon9"
           />
           <img
-            class="icon10"
+            data-speed="-3"
+            id="icon10"
+            class="icons"
             width="3%"
             src="docs/3dicon/Code_perspective_matte.png"
             alt="icon10"
@@ -88,6 +110,19 @@
           <img src="docs/scrolldown.svg" alt="scrolldown" />
         </div>
       </header>
+      <script>
+        document.addEventListener("mousemove", gwparsa);
+        function gwparsa(e) {
+          this.querySelectorAll(".icons").forEach((icons) => {
+            const speed = icons.getAttribute("data-speed");
+
+            const x = (window.innerWidth - e.pageX * speed) / 150;
+            const y = (window.innerHeight - e.pageY * speed) / 150;
+
+            icons.style.transform = `translateX(${x}px) translateY(${y}px)`;
+          });
+        }
+      </script>
       <main id="main-content">
         <div class="content">
           <div class="about-container">

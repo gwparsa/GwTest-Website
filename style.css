@@ -36,12 +36,12 @@ body {
   color: #212d38;
 }
 .main-text {
-  font-size: 95px;
+  font-size: 105px;
   display: inline;
   cursor: none;
   font-weight: 800;
   text-shadow: rgba(46, 195, 240, 0.4) 4px 4px;
-  transition: 0.6s;
+  transition: 0.45s;
 }
 .main-text:hover {
   letter-spacing: 1px;
@@ -304,74 +304,84 @@ body {
 /********sections******end*******/
 
 /*********3dicons*********/
-.icon1 {
+#icon1 { 
   left: 10%;
   top: 87%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(20deg);
+  object-fit: cover; 
 }
-.icon2 {
+#icon2 {
   right: 30%;
   top: 90%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(20deg);
+  object-fit: cover;
 }
-.icon3 {
+#icon3 {
   left: 55%;
   top: 30%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(-20deg);
+  object-fit: cover;
 }
-.icon4 {
+#icon4 {
   right: 66%;
   top: 23%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(20deg);
+  object-fit: cover;
 }
-.icon5 {
+#icon5 {
   left: 32%;
   top: 80%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(-20deg);
+  object-fit: cover;
 }
-.icon6 {
+#icon6 {
   right: 8%;
   top: 26%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(20deg);
+  object-fit: cover;
 }
-.icon7 {
+#icon7 {
   left: 6%;
   top: 34%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(-20deg);
+  object-fit: cover;
 }
-.icon8 {
+#icon8 {
   right: 8%;
   top: 76%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(-20deg);
+  object-fit: cover;
 }
-.icon9 {
+#icon9 {
   right: 36%;
   top: 66%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(20deg);
+  object-fit: cover;
 }
-.icon10 {
+#icon10 {
   right: 60%;
-  top: 44%;
+  top: 39%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(-20deg);
+  object-fit: cover;
 }
 /*********3dicons**Ending*******/
