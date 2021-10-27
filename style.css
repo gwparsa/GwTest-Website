@@ -304,13 +304,13 @@ body {
 /********sections******end*******/
 
 /*********3dicons*********/
-#icon1 { 
+#icon1 {
   left: 10%;
   top: 87%;
   margin-top: -100px;
   position: absolute;
   transform: rotate(20deg);
-  object-fit: cover; 
+  object-fit: cover;
 }
 #icon2 {
   right: 30%;
