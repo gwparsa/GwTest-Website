@@ -32,191 +32,31 @@
     <title>GwParSa WorkSpace</title>
   </head>
   <body dir="ltr">
-    <div class="main-container">
-      <header id="upper-header">
-        <div class="header-text">
-          <div data-speed="2" class="movetext main-text">GwParSa WorkSpace</div>
-          <!-- Header Big Text -->
-        </div>
-        <div class="about-button">
-          <a href="#about">More About Me...</a>
-        </div>
-        <div id="icons-move" class="d3icon-background">
-          <img
-            data-speed="-5"
-            id="icon1"
-            class="icons"
-            width="5%"
-            src="docs/3dicon/Binance_coin_perspective_matte.png"
-            alt="icon1"
-          />
-          <img
-            data-speed="9"
-            id="icon2"
-            class="icons"
-            width="4%"
-            src="docs/3dicon/Brush_perspective_matte.png"
-            alt="icon2"
-          />
-          <img
-            data-speed="-2"
-            id="icon3"
-            class="icons"
-            width="4%"
-            src="docs/3dicon/Coin_perspective_matte.png"
-            alt="icon3"
-          />
-          <img
-            data-speed="-7"
-            id="icon4"
-            class="icons"
-            width="6%"
-            src="docs/3dicon/Networking_perspective_matte.png"
-            alt="icon4"
-          />
-          <img
-            data-speed="5"
-            id="icon5"
-            class="icons"
-            width="6%"
-            src="docs/3dicon/Clip_perspective_matte.png"
-            alt="icon5"
-          />
-          <img
-            data-speed="7"
-            id="icon6"
-            class="icons"
-            width="5%"
-            src="docs/3dicon/Tools_perspective_matte.png"
-            alt="icon6"
-          />
-          <img
-            data-speed="-10"
-            id="icon7"
-            class="icons"
-            width="5%"
-            src="docs/3dicon/Money_bag_perspective_matte.png"
-            alt="icon7"
-          />
-          <img
-            data-speed="5"
-            id="icon8"
-            class="icons"
-            width="6%"
-            src="docs/3dicon/Fire_perspective_matte.png"
-            alt="icon8"
-          />
-          <img
-            data-speed="-7"
-            id="icon9"
-            class="icons"
-            width="3%"
-            src="docs/3dicon/Code_perspective_matte.png"
-            alt="icon9"
-          />
-          <img
-            data-speed="-3"
-            id="icon10"
-            class="icons"
-            width="3%"
-            src="docs/3dicon/Code_perspective_matte.png"
-            alt="icon10"
-          />
-        </div>
-        <div class="scrolldown-icon2">
-          <img src="docs/scrolldown.svg" alt="scrolldown" />
-        </div>
-      </header>
+    <div class="header-text">
+      <div class="main-text">GwParSa WorkSpace</div>  <!-- Header Big Text -->
+    </div>
+    <div class="about-button">
+      <a href="#about">More About Me...</a> <!-- Under More Button -->
+    </div>
+    <div class="scrolldown-icon2">
+      <img src="docs/scrolldown.svg" alt="scrolldown" /> <!-- Scrolldown button -->
+    </div>
 
-      <!-- MoveIcons Script -->
-      <script>
-        document.addEventListener("mousemove", gwparsa);
-        function gwparsa(e) {
-          this.querySelectorAll(".icons").forEach((icons) => {
-            const speed = icons.getAttribute("data-speed");
+    <div class="white-container">
 
-            const x = (window.innerWidth - e.pageX * speed) / 150;
-            const y = (window.innerHeight - e.pageY * speed) / 150;
 
-            icons.style.transform = `translateX(${x}px) translateY(${y}px)`;
-          });
-        }
-      </script>
-
-      <main id="main-content">
-        <div class="content">
           <div class="about-container">
-            <div class="about-me">
-              <h3>About Me</h3>
-              <hr class="hr" />
-              <p id="about">
-                I currently live in Qazvin, Iran. I am 17 years old and I love
-                computers and working with them. My other hobbies include
-                reading books, programming, making music and experimenting with
-                new things. My Plan For The Future Is To Immigrate To Another
-                Country To Work And Study, And Later To Launch A Gaming Suite
-                For Iranian Gamers. I started programming in
-                <strong> C# Language </strong> at the age of 11 and entered
-                <strong> FrontEnd </strong> at the age of 17 and I am still
-                working in this field. I am also studying mathematics and will
-                be entering computer science soon. I entered the servers at a
-                young age (12 years old) and since then I have succeeded in
-                designing and launching several servers and collections. I am
-                currently working on a new collection that I will post more
-                information on soon. During this time I have been able to make
-                good friends and great colleagues, and I am still eager to find
-                and attract other programmers. If you want to join this team, be
-                sure to let me know by
-                <a class="inviting-form" href="#">clicking here</a> ! Thank you
-                for your attention, I hope you enjoy visiting the site!
-              </p>
-              <div class="resume-dl">
-                <p class="text-dl">
-                  <b>You Can Download And Watch My Resume !</b>
-                </p>
-                <a
-                  class="en-resume-button"
-                  href="docs/resume/ENresume.pdf"
-                  download="docs/resume/ENresume.pdf"
-                  ><b
-                    ><img
-                      width="19px"
-                      src="docs/united-states.svg"
-                      alt="usa flag"
-                    />
-                    En Version</b
-                  ></a
-                >
-                <a
-                  class="fa-resume-button"
-                  href="docs/resume/FAresume.pdf"
-                  download="docs/resume/FAresume.pdf"
-                  ><b
-                    ><img width="19px" src="docs/iran.svg" alt="iran flag" /> Fa
-                    Version</b
-                  ></a
-                >
-              </div>
 
+
+
+
+            <div class="progress-container">
               <div class="progress-bar">
                 <!-- SkillBar Icons -->
-                <img
-                  class="icons"
-                  id="iconp1"
-                  data-speed="6"
-                  width="11%"
-                  src="docs/3dicon/Code_perspective_matte.png"
-                  alt="code"
-                />
-                <img
-                  class="icons"
-                  id="iconp2"
-                  data-speed="-6"
-                  width="12%"
-                  src="docs/3dicon/Fire_perspective_matte.png"
-                  alt="fire"
-                />
+                <img kclass="icons" id="iconp1" data-speed="6" width="11%" src="docs/3dicon/Code_perspective_matte.png" alt="code"/>
+                <img class="icons"id="iconp2" data-speed="-6" width="12%" src="docs/3dicon/Fire_perspective_matte.png" alt="fire"/>
                 <!-- End of SkillBar Icons -->
+
                 <h3 class="progress-h">My Skills</h3>
                 <br />
                 <img src="docs/html.svg" width="15px" alt="html" /><label
@@ -263,11 +103,117 @@
           <!-- end of about me container -->
           </div>
           <!-- 2nd contents -->
-        </div>
-        <!-- all of white page -->
-      </main>
-      <footer id="down-footer"></footer>
-    </div>
+
+    </div> <!-- White container (end) -->
+
+
+
+
+    <div id="icons-move" class="d3icon-background">  <!-- 3dicons in background (start)-->
+      <img
+        data-speed="-5"
+        id="icon1"
+        class="icons"
+        width="5%"
+        src="docs/3dicon/Binance_coin_perspective_matte.png"
+        alt="icon1"
+      />
+      <img
+        data-speed="9"
+        id="icon2"
+        class="icons"
+        width="4%"
+        src="docs/3dicon/Brush_perspective_matte.png"
+        alt="icon2"
+      />
+      <img
+        data-speed="-2"
+        id="icon3"
+        class="icons"
+        width="4%"
+        src="docs/3dicon/Coin_perspective_matte.png"
+        alt="icon3"
+      />
+      <img
+        data-speed="-7"
+        id="icon4"
+        class="icons"
+        width="6%"
+        src="docs/3dicon/Networking_perspective_matte.png"
+        alt="icon4"
+      />
+      <img
+        data-speed="5"
+        id="icon5"
+        class="icons"
+        width="6%"
+        src="docs/3dicon/Clip_perspective_matte.png"
+        alt="icon5"
+      />
+      <img
+        data-speed="7"
+        id="icon6"
+        class="icons"
+        width="5%"
+        src="docs/3dicon/Tools_perspective_matte.png"
+        alt="icon6"
+      />
+      <img
+        data-speed="-10"
+        id="icon7"
+        class="icons"
+        width="5%"
+        src="docs/3dicon/Money_bag_perspective_matte.png"
+        alt="icon7"
+      />
+      <img
+        data-speed="5"
+        id="icon8"
+        class="icons"
+        width="6%"
+        src="docs/3dicon/Fire_perspective_matte.png"
+        alt="icon8"
+      />
+      <img
+        data-speed="-7"
+        id="icon9"
+        class="icons"
+        width="3%"
+        src="docs/3dicon/Code_perspective_matte.png"
+        alt="icon9"
+      />
+      <img
+        data-speed="-3"
+        id="icon10"
+        class="icons"
+        width="3%"
+        src="docs/3dicon/Code_perspective_matte.png"
+        alt="icon10"
+      />
+    </div> <!-- 3dicons in background (end)-->
+
+    <script> 
+      document.addEventListener("mousemove", gwparsa);
+      function gwparsa(e) {
+        this.querySelectorAll(".icons").forEach((icons) => {
+          const speed = icons.getAttribute("data-speed");
+    
+          const x = (window.innerWidth - e.pageX * speed) / 150;
+          const y = (window.innerHeight - e.pageY * speed) / 150;
+    
+          icons.style.transform = `translateX(${x}px) translateY(${y}px)`;
+        });
+      }
+    </script> <!-- MoveIcons Script -->
+
+      <div class="resume-dl"> <!-- Resume Container -->
+        <p class="text-dl">
+          <b>You Can Download And Watch My Resume !</b>
+        </p>
+          <a class="en-resume-button" href="docs/resume/ENresume.pdf" download="docs/resume/ENresume.pdf" ><b><img width="19px" src="docs/united-states.svg" alt="usa flag"/>En Version</b></a>
+          <a class="fa-resume-button" href="docs/resume/FAresume.pdf" download="docs/resume/FAresume.pdf"><b><img width="19px" src="docs/iran.svg" alt="iran flag" /> Fa Version</b></a>
+      </div> <!-- Resume Container (end) -->
+
   </body>
 </html>
 <!-- Copyright 2021 - GwParSa -->

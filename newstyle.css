@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;0,900;1,500;1,800&display=swap");
 * {
-  /*  CSS Reset  */
+  /* CSS Reset */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
   user-select: none;
@@ -14,23 +15,35 @@ html {
   -moz-user-select: none;
   -ms-user-select: none;
 }
-body {
-  background: #3498db;
+
+.blue{
+  background: #1A2238;
 }
+
+.main-container {
+  display: block;
+  position: relative;
+  top: -2px;
+  height: 369px;
+  background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1590 369" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(26, 34, 56, 1)" d="M 0 111 C 327.6 111 491.4 149 819 149 L 819 149 L 819 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(26, 34, 56, 1)" d="M 818 149 C 1130.8 149 1287.2 91 1600 91 L 1600 91 L 1600 0 L 818 0 Z" stroke-width="0"></path> </svg>');
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ 
+ @media (max-width:1599px) {
+  .main-container {
+    background-size: contain;
+  }
+ }
+ 
+ 
+ 
+
+
 ::-webkit-scrollbar {
   width: 0;
 }
-
-
-
-.white-container{
-  background: #fff;
-  margin-top: 850px;
-  background: #fff;
-  border-radius: 20px 20px 20px 20px;
-
-}
-
+/*  Start Of Screen Codes  */
 .header-text {
   left: 0;
   line-height: 100px;
@@ -90,7 +103,11 @@ body {
   bottom: 0%;
   width: 100%;
 }
-
+.content {
+  margin-top: 850px;
+  background: #fff;
+  border-radius: 20px 20px 20px 20px;
+}
 .about-container {
   margin: 40px 40px 0 40px;
   padding: 60px;
@@ -98,7 +115,7 @@ body {
 .about-container p {
   font-weight: 400;
 }
-.progress-container {
+.about-container .about-me {
   font-size: 1em;
   font-weight: auto;
   transition: 0.6s;
@@ -106,7 +123,16 @@ body {
   text-align: justify;
   transition: 0.3s;
 }
-.progress-container h3 {
+.border-about {
+  background: #3498db;
+  color: #212d38;
+  border-radius: 10px;
+  width: 700px;
+  padding: 30px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.about-me h3 {
   color: #212d38;
   text-align: center;
   font-size: 52px;
@@ -162,7 +188,6 @@ body {
 }
 /*********progressicons****end*******/
 .resume-dl {
-  position: relative;
   border-radius: 9px;
   text-align: center;
   margin-top: 25px;
